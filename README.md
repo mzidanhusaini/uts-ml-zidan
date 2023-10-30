@@ -169,5 +169,5 @@ Tingkat akurasi data test =  0.8392857142857143
 Berdasarkan proses yang sudah di lakukan didapakatkan akurasi data training sebesar 85% dan akurasi data testing 83% yang berarti model tersebut dapat digunakan.
 
 ## Deployment
-Link Aplikasi: [Diagnosa Penyakit Jantung]()
+Link Aplikasi: [Diagnosa Penyakit Jantung](https://uts-ml-zidan-diagnosajantung.streamlit.app/)
 
