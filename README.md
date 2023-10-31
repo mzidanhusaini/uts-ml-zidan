@@ -111,10 +111,15 @@ plt.figure(figsize = (18,9))
 sns.heatmap(df.corr(), cmap='GnBu', annot=True)
 plt.show()
 ```
+![image](https://github.com/mzidanhusaini/uts-ml-zidan/assets/149399304/867c39f0-4d41-4e89-bcf1-b357f5bf7c3f)
+
+
 Jika ingin mengecek heatmap dengan mengurutkan nilainya masukkan perintah :
 ```bash
 sns.heatmap(df.corr()[['HeartDisease']].sort_values(by='HeartDisease', ascending=False), vmin=-1, vmax=1, annot=True, cmap='GnBu')
 ```
+![image](https://github.com/mzidanhusaini/uts-ml-zidan/assets/149399304/319a3a10-2d29-4844-8be7-06cf99bdd4c0)
+
 
 ## Modeling
 Untuk melakukan modeling saya memakai algoritma regresi linear, dimana kita harus memisahkan mana saja atribut yang akan dijadikan sebagai fitur(x) dan atribut mana yang dijadikan label(y).
